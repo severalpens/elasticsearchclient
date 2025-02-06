@@ -5,7 +5,7 @@ interface Faq {
 }
 
 export default async function Page() {
-    const data = await fetch('esresearch.azurewebsites.net/faqs')
+    const data = await fetch('https://esresearch.azurewebsites.net/faqs')
     const faqs: Faq[] = await data.json()
     return (
       <ul>
