@@ -12,12 +12,14 @@ export default async function Page() {
     const data = await fetch('https://esresearch.azurewebsites.net/faqs')
     const faqs: Faq[] = await data.json()
     return (
-        
-      <div>
-            <h1>FAQs</h1>
-          <ul>
+      <div className="container mx-auto p-4">
+            <h1 className="text-2xl font-bold mb-4">FAQs</h1>
+          <ul className="list-disc pl-5">
             {faqs.map((faq) => (
-              <li key={faq._id}>{faq._source.Question}</li>
+              <li key={faq._id} className="mb-2">
+                <p className="font-semibold">{faq._source.Question}</p>
+                <p>{faq._source.Answer}</p>
+              </li>
             ))}
           </ul>
       </div>
