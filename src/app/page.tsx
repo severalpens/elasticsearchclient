@@ -13,7 +13,7 @@ export default function Home() {
         <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
           <div id="h1-title" className="flex flex-col items-center sm:items-start gap-4">
             <h1 className="text-4xl font-bold text-center sm:text-left">Elasticsearch Research</h1>
-            <p className="text-center sm:text-left">This is a simple Next.js application that demonstrates how to use Elasticsearch with a Next.js client.</p>
+            <p className="text-center sm:text-left">This is a simple Next.js application that demonstrates how to use Elasticsearch with a Next.js client via a Node.js API.</p>
           </div>
         <div>
             <h2 className="text-2xl font-bold mb-4">Routes</h2>
