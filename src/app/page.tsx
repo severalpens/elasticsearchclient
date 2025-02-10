@@ -19,10 +19,10 @@ export default function Home() {
             <h2 className="text-2xl font-bold mb-4">Routes</h2>
             <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
             <li className="mb-2">
-                <a href={`${process.env.NEXT_PUBLIC_CLIENT_URL }/faqs`}>/faqs</a>
+                <Link href={`/faqs`}>/faqs</Link>
               </li>
               <li className="mb-2">
-                <a href={`${process.env.NEXT_PUBLIC_CLIENT_URL }/search`}>/search</a>
+                <Link href={`/search`}>/search</Link>
               </li>
             </ol>
           </div>
