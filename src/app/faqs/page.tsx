@@ -19,7 +19,7 @@ export default async function Page() {
     <div>
       <div id="navbar" className="bg-gray-800 text-white p-4">
         <Link href="/">
-          <a className="text-white">Home</a>
+          Home
         </Link>
       </div>
       <div className="container mx-auto p-4">
