@@ -31,12 +31,12 @@ export default function Home() {
             <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
             <li className="mb-2">
                 <a href="https://gray-smoke-064726800.4.azurestaticapps.net/">
-                  Client (https://gray-smoke-064726800.4.azurestaticapps.net/)
+                  Next.js Client (https://gray-smoke-064726800.4.azurestaticapps.net/)
                 </a>
                 </li>
                 <li className="mb-2">
                 <a    href="https://esresearch.azurewebsites.net"                >
-                  Server
+                  Node.js (Express) Server
                 </a>
                 </li>
                 <li className="mb-2">
