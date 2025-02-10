@@ -18,7 +18,9 @@ export default function Page() {
     const [faqs, setFaqs] = useState<Faq[]>([]);
 
     const handleSearch = async () => {
-        const data = await fetch(`https://esresearch.azurewebsites.net/faqs/?q=${query}`);
+        const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://esresearch.azurewebsites.net';
+
+        const data = await fetch(`${apiUrl}/api/faqs/?q=${query}`);
         const result: Faq[] = await data.json();
         setFaqs(result);
     };
