@@ -1,0 +1,5 @@
+NEXT_PUBLIC_API_URL=http://localhost:3000
+# NEXT_PUBLIC_API_URL=https://esresearch.azurewebsites.net
+
+NEXT_PUBLIC_CLIENT_URL=http://localhost:3001
+# NEXT_PUBLIC_CLIENT_URL=https://gray-smoke-064726800.4.azurestaticapps.net
