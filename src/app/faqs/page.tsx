@@ -16,8 +16,8 @@ export default async function Page() {
     return (
       <div>
         <div id="navbar" className="bg-gray-800 text-white p-4">
-          <Link href="/">
-            <a className="text-white">Home</a>
+        <Link href="/" className="text-white">
+                  Home
           </Link>
         </div>
         <div className="container mx-auto p-4">

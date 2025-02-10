@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <div>
                   <div id="navbar" className="bg-gray-800 text-white p-4">
-                  <Link href="/">
-            <a className="text-white">Home</a>
+                  <Link href="/" className="text-white">
+                  Home
           </Link>
             </div>
 
@@ -27,17 +27,26 @@ export default function Home() {
             </ol>
           </div>
           <div>
-            <h2 className="text-2xl font-bold mb-4">Links</h2>
+            <h2 className="text-2xl font-bold mb-4">Layers</h2>
             <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-              <li className="mb-2">
-                <a
-                  href="https://esresearch.azurewebsites.net"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  API
+            <li className="mb-2">
+                <a href="https://gray-smoke-064726800.4.azurestaticapps.net/">
+                  Client (https://gray-smoke-064726800.4.azurestaticapps.net/)
                 </a>
                 </li>
+                <li className="mb-2">
+                <a    href="https://esresearch.azurewebsites.net"                >
+                  Server
+                </a>
+                </li>
+                <li className="mb-2">
+                  Elasticsearch Cluster (Hosted on Azure)
+                </li>
+                </ol>
+          </div>
+          <div>
+            <h2 className="text-2xl font-bold mb-4">Repos</h2>
+            <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
                 <li className="mb-2">
                 <a
                   href="https://github.com/severalpens/esresearchapi"
