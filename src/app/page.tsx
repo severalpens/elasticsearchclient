@@ -1,14 +1,12 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
-  const localHost = "http://localhost:3001"
-  const remoteHost = "https://gray-smoke-064726800.4.azurestaticapps.net"
   return (
     <div>
                   <div id="navbar" className="bg-gray-800 text-white p-4">
-                <a href="/" className="text-white">
-                    Home
-                </a>
+                  <Link href="/">
+            <a className="text-white">Home</a>
+          </Link>
             </div>
 
       <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">

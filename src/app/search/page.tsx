@@ -1,5 +1,6 @@
 "use client"
 import { useState } from 'react';
+import Link from 'next/link';
 
 interface Faq {
     _index: string;
@@ -25,9 +26,9 @@ export default function Page() {
     return (
         <div>
             <div id="navbar" className="bg-gray-800 text-white p-4">
-                <a href="/" className="text-white">
-                    Home
-                </a>
+            <Link href="/">
+            <a className="text-white">Home</a>
+          </Link>
             </div>
             <div className="container mx-auto p-4">
                 <h1 className="text-2xl font-bold mb-4">Search FAQs</h1>
