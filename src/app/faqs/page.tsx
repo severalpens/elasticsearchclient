@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 interface Faq {
   _index: string;
   _id: number;
@@ -17,11 +15,6 @@ export default async function Page() {
   const faqs: Faq[] = await data.json();
   return (
     <div>
-      <div id="navbar" className="bg-gray-800 text-white p-4">
-        <Link href="/">
-          Home
-        </Link>
-      </div>
       <div className="container mx-auto p-4">
         <h1 className="text-2xl font-bold mb-4">FAQs</h1>
         <ul className="list-disc pl-5">
