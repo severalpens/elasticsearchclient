@@ -21,6 +21,12 @@ export default function Home() {
               <li className="mb-2">
                 <Link href={`/embed`}>/embed</Link>
               </li>
+              <li className="mb-2">
+                <Link href={`/huggingFaceEmbedding`}>/huggingFaceEmbedding</Link>
+              </li>
+              <li className="mb-2">
+                <Link href={`/huggingFaceSearch`}>/huggingFaceSearch</Link>
+              </li>
             </ol>
           </div>
           <div>
