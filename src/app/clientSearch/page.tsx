@@ -1,5 +1,5 @@
 "use client"
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 
 interface Document {
     title: string;
@@ -649,22 +649,12 @@ const long_documents_json = [
   
 
 export default  function Page() {
-    // const [long_documents, setLongDocuments] = useState<Document[]>(long_documents_json);
+    const [longDocuments ] = useState<Document[]>(long_documents_json);
     const [filteredDocuments, setFilteredDocuments] = useState<Document[]>(long_documents_json);
     const [selectedDocument, setSelectedDocument] = useState<Document | null>(null);
     const [searchTerm, setSearchTerm] = useState<string>('');
     const [resultText, setResultText] = useState<string>('No document selected');
 
-    useEffect(() => {
-        // const fetchDocuments = async () => {
-        //     const response = await fetch('/long_documents.json');
-        //     const data = await response.json();
-        //     setLongDocuments(data);
-        //     setFilteredDocuments(data);
-        // };
-
-        // fetchDocuments();
-    }, []);
 
     const handleSearch = () => {
         if (searchTerm === '') {
@@ -683,7 +673,7 @@ export default  function Page() {
 
     const filterSearch = (eTargetValue: string) => {
         setSearchTerm(eTargetValue);
-        const filtered = long_documents.filter(doc => doc.text.includes(searchTerm));
+        const filtered = longDocuments.filter(doc => doc.text.includes(searchTerm));
         setFilteredDocuments(filtered);
     }
 
@@ -701,7 +691,7 @@ export default  function Page() {
                         <button
                             onClick={() => {
                                 setSearchTerm('');
-                                setFilteredDocuments(long_documents);
+                                setFilteredDocuments(longDocuments);
                                 setSelectedDocument(null);
                                 setResultText('No document selected');
                             }}
