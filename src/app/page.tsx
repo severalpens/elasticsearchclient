@@ -13,19 +13,7 @@ export default function Home() {
             <h2 className="text-2xl font-bold mb-4">Routes</h2>
             <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
               <li className="mb-2">
-                <Link href={`/faqs`}>/faqs</Link>
-              </li>
-              <li className="mb-2">
-                <Link href={`/search`}>/search</Link>
-              </li>
-              <li className="mb-2">
-                <Link href={`/embed`}>/embed</Link>
-              </li>
-              <li className="mb-2">
-                <Link href={`/huggingFaceEmbedding`}>/huggingFaceEmbedding</Link>
-              </li>
-              <li className="mb-2">
-                <Link href={`/huggingFaceSearch`}>/huggingFaceSearch</Link>
+                <Link href={`/clientSearch`}>/clientSearch</Link>
               </li>
             </ol>
           </div>
