@@ -6,11 +6,7 @@ interface Document {
     text: string;
 }
 
-interface Props {
-    documents: Document[];
-}
-
-const ClientSearch: React.FC<Props> = () => {
+export default  function Page() {
     const [long_documents, setLongDocuments] = useState<Document[]>([]);
     const [filteredDocuments, setFilteredDocuments] = useState<Document[]>([]);
     const [selectedDocument, setSelectedDocument] = useState<Document | null>(null);
@@ -101,4 +97,3 @@ const ClientSearch: React.FC<Props> = () => {
     );
 };
 
-export default ClientSearch;
