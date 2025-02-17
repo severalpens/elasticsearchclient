@@ -649,7 +649,7 @@ const long_documents_json = [
   
 
 export default  function Page() {
-    const [long_documents, setLongDocuments] = useState<Document[]>(long_documents_json);
+    // const [long_documents, setLongDocuments] = useState<Document[]>(long_documents_json);
     const [filteredDocuments, setFilteredDocuments] = useState<Document[]>(long_documents_json);
     const [selectedDocument, setSelectedDocument] = useState<Document | null>(null);
     const [searchTerm, setSearchTerm] = useState<string>('');
