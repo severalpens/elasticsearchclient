@@ -29,8 +29,8 @@ export default function Home() {
                 </a>
               </li>
               <li className="mb-2">
-                <a href="https://esresearch.azurewebsites.net"                >
-                  Node.js (Express) Server
+                <a href="https://api.yellowbush-3996721f.centralus.azurecontainerapps.io/suggestor"                >
+                  Python Flask API (https://api.yellowbush-3996721f.centralus.azurecontainerapps.io/suggestor)
                 </a>
               </li>
               <li className="mb-2">
