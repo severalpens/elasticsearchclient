@@ -12,8 +12,11 @@ export default function Home() {
           <div>
             <h2 className="text-2xl font-bold mb-4">Routes</h2>
             <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-              <li className="mb-2">
+            <li className="mb-2">
                 <Link href={`/clientSearch`}>/clientSearch</Link>
+              </li>
+              <li className="mb-2">
+                <Link href={`/suggestions`}>/suggestions</Link>
               </li>
             </ol>
           </div>
