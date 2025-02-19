@@ -1,6 +1,6 @@
 'use server'
 export async function getSuggestions() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://escontainerapp.whitemoss-6eeecff1.australiaeast.azurecontainerapps.io/suggestor';
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://espythonapp.yellowbush-3996721f.centralus.azurecontainerapps.io/suggestor';
 
   const result = await fetch(`${apiUrl}/suggestor`, {
       method: 'GET',
