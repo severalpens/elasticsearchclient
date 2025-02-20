@@ -14,15 +14,15 @@ export default function Home() {
             <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
             <li className="mb-2">
                 <Link href={`/clientSearch`}><strong>/clientSearch</strong></Link>
-                Demonstrates functionality utilizing a client side json file.
+                 - Searches client side JSON file.
               </li>
               <li className="mb-2">
                 <Link href={`/nextjsSearch`}><strong>/nextjsSearch</strong></Link>
-                Demo search using next.js server modules calling directly to Elasticsearch Cluster.
+                - Searches an Elasticsearch index using server side Next.js components.
               </li>
               <li className="mb-2">
                 <Link href={`/apiSearch`}><strong>/apiSearch</strong></Link>
-                Demo search using Flask API and Elasticsearch Cluster.
+                 - Searches an Elasticsearch index via a Flask API (
               </li>
             </ol>
           </div>
