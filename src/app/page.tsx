@@ -79,9 +79,9 @@ export default function Home() {
             <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
               <li className="mb-2">
               <Link href="/main.json">
-            main.json - 
+            main.json 
           </Link>
-          - An extract from 'main' index in Elasticsearch.
+           - An extract from &lsquo;main&rsquo; index in Elasticsearch.
               </li>
             </ol>
           </div>
