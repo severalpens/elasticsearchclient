@@ -22,7 +22,7 @@ export default function Home() {
               </li>
               <li className="mb-2">
                 <Link href={`/apiSearch`}><strong>/apiSearch</strong></Link>
-                 - Searches an Elasticsearch index via a Flask API (
+                 - Searches an Elasticsearch index via a Flask API
               </li>
             </ol>
           </div>
