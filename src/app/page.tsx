@@ -40,7 +40,14 @@ export default function Home() {
                 </a>
               </li>
               <li className="mb-2">
-                Elasticsearch Cluster (Hosted on Azure)
+                <a href="https://7441222d1c12456cae009f0c5f878e45.westus2.azure.elastic-cloud.com:443">
+                Elasticsearch Cluster (https://7441222d1c12456cae009f0c5f878e45.westus2.azure.elastic-cloud.com:443)
+                </a>
+              </li>
+              <li className="mb-2">
+                <a href="https://esresearch.kb.westus2.azure.elastic-cloud.com">
+                Kibana (https://esresearch.kb.westus2.azure.elastic-cloud.com)
+                </a>
               </li>
             </ol>
           </div>
