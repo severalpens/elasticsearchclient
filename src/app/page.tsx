@@ -13,10 +13,16 @@ export default function Home() {
             <h2 className="text-2xl font-bold mb-4">Routes</h2>
             <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
             <li className="mb-2">
-                <Link href={`/clientSearch`}>/clientSearch</Link>
+                <Link href={`/clientSearch`}><strong>/clientSearch</strong></Link>
+                Demonstrates functionality utilizing a client side json file.
               </li>
               <li className="mb-2">
-                <Link href={`/suggestions`}>/suggestions</Link>
+                <Link href={`/nextjsSearch`}><strong>/nextjsSearch</strong></Link>
+                Demo search using next.js server modules calling directly to Elasticsearch Cluster.
+              </li>
+              <li className="mb-2">
+                <Link href={`/apiSearch`}><strong>/apiSearch</strong></Link>
+                Demo search using Flask API and Elasticsearch Cluster.
               </li>
             </ol>
           </div>
