@@ -35,7 +35,7 @@ export default function Home() {
                 </a>
               </li>
               <li className="mb-2">
-                <a href="https://api.yellowbush-3996721f.centralus.azurecontainerapps.io/suggestor"                >
+                <a href="https://api.yellowbush-3996721f.centralus.azurecontainerapps.io"                >
                   Python Flask API (https://api.yellowbush-3996721f.centralus.azurecontainerapps.io)
                 </a>
               </li>
