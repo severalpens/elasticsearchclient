@@ -1,5 +1,10 @@
-NEXT_PUBLIC_API_URL=http://localhost:3000
-# NEXT_PUBLIC_API_URL=https://esresearch.azurewebsites.net
-
-NEXT_PUBLIC_CLIENT_URL=http://localhost:3001
+NEXT_PUBLIC_CLIENT_URL=http://localhost:3000
 # NEXT_PUBLIC_CLIENT_URL=https://gray-smoke-064726800.4.azurestaticapps.net
+
+NEXT_PUBLIC_API_URL=http://localhost:5000
+# NEXT_PUBLIC_API_URL=https://api.yellowbush-3996721f.centralus.azurecontainerapps.io
+
+NEXT_PUBLIC_ES_URL=https://.....com:443
+NEXT_PUBLIC_ES_API_KEY=
+NEXT_PUBLIC_ES_USERNAME=
+NEXT_PUBLIC_ES_PASSWORD=
