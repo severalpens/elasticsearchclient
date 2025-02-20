@@ -171,7 +171,7 @@ export default  function Page() {
                         type="text"
                         value={searchTerm}
                         onChange={(e) => filterSearch(e.target.value)}
-                        placeholder="Type eg 'salamander'"
+                        placeholder="Type eg 'payment'"
                         className="w-full p-2 border border-gray-300 rounded"
                     />
                         <button
