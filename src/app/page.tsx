@@ -81,8 +81,8 @@ export default function Home() {
               <Link href="/main.json">
             main.json 
           </Link>
-           - An extract from &lsquo;main&rsquo; index in Elasticsearch.
-              </li>
+          - An extract from &apos;main&apos; index in Elasticsearch.
+          </li>
             </ol>
           </div>
 
