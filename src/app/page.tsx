@@ -49,20 +49,20 @@ export default function Home() {
             <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
               <li className="mb-2">
                 <a
-                  href="https://github.com/severalpens/esresearchapi"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  API Repo
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
                   href="https://github.com/severalpens/elasticsearchclient"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Client Repo
+                </a>
+              </li>
+              <li className="mb-2">
+                <a
+                  href="https://github.com/severalpens/esresearchapi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  API Repo
                 </a>
               </li>
             </ol>
