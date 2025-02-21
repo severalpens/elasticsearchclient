@@ -17,12 +17,12 @@ export default function Home() {
                  - Searches client side JSON file.
               </li>
               <li className="mb-2">
-                <Link href={`/nextjsSearch`}><strong>/nextjsSearch</strong></Link>
-                - Searches an Elasticsearch index using server side Next.js components.
+                <Link href={`/searchHybrid`}><strong>/searchHybrid</strong></Link>
+                - Hybrid search
               </li>
               <li className="mb-2">
-                <Link href={`/apiSearch`}><strong>/apiSearch</strong></Link>
-                 - Searches an Elasticsearch index via a Flask API
+                <Link href={`/searchFullText`}><strong>/searchFullText</strong></Link>
+                 - Full text search
               </li>
             </ol>
           </div>
